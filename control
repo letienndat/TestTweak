@@ -1,0 +1,9 @@
+Package: com.datlt-2k2.tweak5
+Name: Tweak5
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Le Tien Dat
+Author: Le Tien Dat
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
