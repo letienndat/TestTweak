@@ -1,5 +1,5 @@
-Package: com.datlt-2k2.tweak5
-Name: Tweak5
+Package: com.datlt-2k2.test-tweak
+Name: TestTweak
 Version: 1.0.0
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!

@@ -1,14 +1,16 @@
-export THEOS_DEVICE_IP = 172.17.3.79
-export THEOS_DEVICE_USER = root
-export THEOS_DEVICE_PASSWORD = alpine
+export THEOS_DEVICE_IP = localhost-iphone
+# export THEOS_DEVICE_PORT = 2222
+# export THEOS_DEVICE_USER = root
+# export THEOS_DEVICE_PASSWORD = alpine
 ARCHS = arm64 arm64e
+INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = Tweak5
+TWEAK_NAME = TestTweak
 
-Tweak5_FILES = Tweak.x
-Tweak5_CFLAGS = -fobjc-arc
+TestTweak_FILES = Tweak.x
+TestTweak_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
